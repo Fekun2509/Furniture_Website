@@ -1,0 +1,43 @@
+{
+    "name": "website",
+    "version": "1.0.0",
+    "description": "backend nodejs WebsiteCS2",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --exec babel-node src/server.js",
+        "build": "babel src -d build",
+        "start:prod": "node build/server.js"
+    },
+    "keywords": [
+        "fullstack",
+        "nodejs",
+        "express",
+        "WebsiteNoithat"
+    ],
+    "author": "Leo Hoang",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "bcryptjs": "^3.0.3",
+        "body-parser": "^1.20.4",
+        "cloudinary": "^2.10.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.6.0",
+        "ejs": "^3.1.10",
+        "express": "^4.22.1",
+        "google-auth-library": "^10.6.2",
+        "multer": "^2.1.1",
+        "multer-storage-cloudinary": "^4.0.0",
+        "mysql2": "^2.3.3",
+        "sequelize": "^6.37.8"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.28.0",
+        "@babel/core": "^7.29.0",
+        "@babel/node": "^7.29.0",
+        "@babel/preset-env": "^7.29.2",
+        "nodemon": "^3.1.14",
+        "sequelize-cli": "^6.6.5"
+    }
+}

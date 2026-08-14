@@ -1,0 +1,59 @@
+{
+    "homeheader": {
+        "welcome": "Welcome, "
+    },
+    "menu": {
+        "admin": {
+            "users-manage": "Users Manage",
+            "products-manage": "Products Manage",
+            "orders-manage": "Orders Manage",
+            "posts-manage": "Posts Manage",
+            "sub-menus": {
+                "users-manage-header": "Users type",
+                "users-type": {
+                    "administrators": "Administrator",
+                    "staffs": "Staff",
+                    "customers": "Customer"
+                },
+                "products-manage-categories": "Categories",
+                "products-new-product": "New Product",
+                "products-manage-promotions": "On Sale Product",
+                "all-products": "All Products",
+                "products-type": {
+                    "gaming-table": "Gaming Table",
+                    "table-shelf": "Table Shelf",
+                    "gaming-combos": "Gaming Combo"
+                },
+                "orders-manage-details": "Order Detail",
+                "orders-manage-status": "Order Status",
+                "posts-manage-allPost": "All Post",
+                "posts-manage-newPost": "New Post"
+            }
+        }
+    },
+    "product": {
+        "title": "Create a new product",
+        "subtitle": "Fill all information of the prouduct",
+        "draft": "Draft",
+        "basic-info": "Basic information",
+        "category": "Category",
+        "select-category": "Select category ...",
+        "product-name": "Product name",
+        "description": "Description",
+        "description-example": "Describe about the product...",
+        "price-and-stock": "Price & Stock",
+        "base-price": "Base price",
+        "sell-price": "Sell price",
+        "stock": "Stock",
+        "weight": "Weight",
+        "attribute": "Attribute",
+        "material": "Material",
+        "select-material": "Chọn chất liệu",
+        "style": "Style",
+        "select-style": "Chọn phong cách",
+        "color": "Color",
+        "color-example": "VD: Đen, Xanh navy, #3B6D11...",
+        "image": "Image",
+        "product-image": "Ảnh sản phẩm"
+    }
+}

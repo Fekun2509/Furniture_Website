@@ -1,0 +1,59 @@
+{
+    "homeheader": {
+        "welcome": "Xin chào, "
+    },
+    "menu": {
+        "admin": {
+            "users-manage": "Quản lí người dùng",
+            "products-manage": "Quản lí sản phẩm",
+            "orders-manage": "Quản lí đơn hàng",
+            "posts-manage": "Quản lí bài đăng",
+            "sub-menus": {
+                "users-manage-header": "Loại người dùng",
+                "users-type": {
+                    "administrators": "Quản trị viên",
+                    "staffs": "Nhân viên",
+                    "customers": "Khách hàng"
+                },
+                "products-manage-categories": "Danh mục sản phẩm",
+                "products-new-product": "Sản phẩm mới",
+                "products-manage-promotions": "Sản phẩm khuyến mãi",
+                "all-products": "Tất cả sản phẩm",
+                "products-type": {
+                    "gaming-table": "Bàn gaming",
+                    "table-shelf": "Kệ bàn",
+                    "gaming-combos": "Bộ sản phẩm"
+                },
+                "orders-manage-details": "Chi tiết đơn hàng",
+                "orders-manage-status": "Tình trạng đơn hàng",
+                "posts-manage-allPost": "Tất cả bài đăng",
+                "posts-manage-newPost": "Bài đăng mới"
+            }
+        }
+    },
+    "product": {
+        "title": "Tạo sản phẩm mới",
+        "subtitle": "Điền đầy đủ thông tin để thêm sản phẩm vào danh mục",
+        "draft": "Nháp",
+        "basic-info": "Thông tin cơ bản",
+        "category": "Danh mục",
+        "select-category": "Chọn danh mục ...",
+        "product-name": "tên sản phẩm",
+        "description": "Mô tả sản phẩm",
+        "description-example": "Nhập mô tả chi tiết về sản phẩm, đặc điểm nổi bật...",
+        "price-and-stock": "Giá & tồn kho",
+        "base-price": "giá gốc",
+        "sell-price": "giá bán",
+        "stock": "Trong kho",
+        "weight": "Khối lượng",
+        "attribute": "Thuộc tính",
+        "material": "Chất liệu",
+        "select-material": "Chọn chất liệu",
+        "style": "Phong cách",
+        "select-style": "Chọn phong cách",
+        "color": "Màu sắc",
+        "color-example": "VD: Đen, Xanh navy, #3B6D11...",
+        "image": "Hình ảnh",
+        "product-image": "Ảnh sản phẩm"
+    }
+}

@@ -1,0 +1,97 @@
+.navigator-menu {
+    list-style: none;
+    padding: 0.5rem 0 1rem;
+    margin: 0;
+
+    .menu-group {
+        margin-bottom: 0.25rem;
+
+        .menu-group-name {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 700;
+            letter-spacing: 0.28em;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.2);
+            padding: 1rem 1.25rem 0.35rem;
+            line-height: 1;
+            border: none;
+        }
+
+        .menu-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            .menu {
+                position: relative;
+
+                .menu-link {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0.55rem 1.25rem;
+                    font-size: 0.8rem;
+                    font-weight: 500;
+                    color: #666;
+                    text-decoration: none;
+                    cursor: pointer;
+                    transition: color 0.15s, background 0.15s, border-color 0.15s;
+                    border-left: 2px solid transparent;
+                    letter-spacing: 0.02em;
+                    user-select: none;
+
+                    &:hover {
+                        color: #c0c0c0;
+                        background: rgba(255, 255, 255, 0.03);
+                    }
+
+                    &.open {
+                        color: #c0c0c0;
+                    }
+
+                    .icon-right {
+                        position: static;
+                        font-size: 0.7rem;
+                        opacity: 0.5;
+                    }
+                }
+
+                &.active > .menu-link {
+                    color: #00e8d5;
+                    border-left-color: #00e8d5;
+                    background: rgba(0, 232, 213, 0.05);
+                }
+
+                .sub-menu-list {
+                    list-style: none;
+                    padding: 0.15rem 0;
+                    margin: 0;
+
+                    .sub-menu {
+                        .sub-menu-link {
+                            display: block;
+                            padding: 0.45rem 1.25rem 0.45rem 2.25rem;
+                            font-size: 0.76rem;
+                            color: #555;
+                            text-decoration: none;
+                            transition: color 0.15s, background 0.15s;
+                            border-left: 2px solid transparent;
+
+                            &:hover {
+                                color: #c0c0c0;
+                                background: rgba(255, 255, 255, 0.02);
+                            }
+                        }
+
+                        &.active .sub-menu-link {
+                            color: #00e8d5;
+                            border-left-color: rgba(0, 232, 213, 0.4);
+                            background: rgba(0, 232, 213, 0.04);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
